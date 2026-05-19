@@ -9,8 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        peach: '#F2C4A0',
+        'peach-light': '#FAF7F2',
+        orange: '#D4621A',
+        'orange-light': '#F0874A',
+        espresso: '#1C1009',
+        'warm-gray': '#8C7B6E',
+        cream: '#FDF8F3',
+        gold: '#C9A84C',
+      },
+      fontFamily: {
+        display: ['var(--font-cormorant)', 'serif'],
+        ui: ['var(--font-dm-sans)', 'sans-serif'],
       },
     },
   },
